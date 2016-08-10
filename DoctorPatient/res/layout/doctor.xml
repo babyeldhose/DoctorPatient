@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/health"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/doctName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Doctor Name" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/dateEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Date"
+        android:inputType="date" />
+
+    <EditText
+        android:id="@+id/timeEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Time"
+        android:inputType="time" />
+
+    <Button
+        android:id="@+id/btnBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Book The Appointment" />
+
+</LinearLayout>
